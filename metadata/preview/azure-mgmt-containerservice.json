@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-containerservice",
-  "Version": "18.0.0a20220330001",
-  "DevVersion": "18.0.0a20220330001",
+  "Version": "18.0.0a20220331001",
+  "DevVersion": "18.0.0a20220331001",
   "DirectoryPath": "sdk/containerservice/azure-mgmt-containerservice",
   "ServiceDirectory": "containerservice",
   "ReadMePath": "sdk/containerservice/azure-mgmt-containerservice/README.md",
