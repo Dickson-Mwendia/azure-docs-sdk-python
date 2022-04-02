@@ -1,7 +1,7 @@
 {
   "Name": "azure-storage-file-share",
-  "Version": "12.8.0a20220330001",
-  "DevVersion": "12.8.0a20220330001",
+  "Version": "12.8.0a20220401001",
+  "DevVersion": "12.8.0a20220401001",
   "DirectoryPath": "sdk/storage/azure-storage-file-share",
   "ServiceDirectory": "storage",
   "ReadMePath": "sdk/storage/azure-storage-file-share/README.md",
