@@ -103,6 +103,14 @@
     - name: Management
       children:
       - azure-mgmt-automation
+  - name: Autosuggest
+    href: ~/docs-ref-services/{moniker}/autosuggest.md
+    landingPageType: Service
+    items:
+    - name: Autosuggest
+      href: ~/docs-ref-services/{moniker}/cognitiveservices-search-autosuggest-readme.md
+      children:
+      - azure-cognitiveservices-search-autosuggest
   - name: Azure Remote Rendering
     href: ~/docs-ref-services/{moniker}/azure-remote-rendering.md
     landingPageType: Service
