@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-containerinstance",
-  "Version": "9.1.0a20220330001",
-  "DevVersion": "9.1.0a20220330001",
+  "Version": "9.1.0a20220404001",
+  "DevVersion": "9.1.0a20220404001",
   "DirectoryPath": "sdk/containerinstance/azure-mgmt-containerinstance",
   "ServiceDirectory": "containerinstance",
   "ReadMePath": "sdk/containerinstance/azure-mgmt-containerinstance/README.md",
