@@ -3,14 +3,14 @@ title: Azure Form Recognizer client library for Python
 keywords: Azure, python, SDK, API, azure-ai-formrecognizer, formrecognizer
 author: kristapratico
 ms.author: krpratic
-ms.date: 03/31/2022
+ms.date: 04/05/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: python
 ms.service: formrecognizer
 ---
-# Azure Form Recognizer client library for Python - Version 3.2.0a20220330003 
+# Azure Form Recognizer client library for Python - Version 3.2.0a20220404003 
 
 
 Azure Cognitive Services Form Recognizer is a cloud service that uses machine learning to analyze text and structured data from your documents. It includes the following main features:
@@ -47,7 +47,7 @@ This table shows the relationship between SDK versions and supported API version
 
 |SDK version|Supported API version of service
 |-|-
-|3.2.0b3 - Latest beta release | 2.0, 2.1, 2022-01-30-preview
+|3.2.0b4 - Latest beta release | 2.0, 2.1, 2022-01-30-preview
 |3.1.X - Latest GA release| 2.0, 2.1 (default)
 |3.0.0| 2.0
 
