@@ -21,7 +21,13 @@ variables:
 
     "InvalidRequest", "InvalidParameterValue", "KnowledgeBaseNotFound",
 
-    "AzureCognitiveSearchNotFound", "AzureCognitiveSearchThrottling", "ExtractionFailure".'
+    "AzureCognitiveSearchNotFound", "AzureCognitiveSearchThrottling", "ExtractionFailure",
+
+    "InvalidRequestBodyFormat", "EmptyRequest", "MissingInputDocuments", "InvalidDocument",
+
+    "ModelVersionIncorrect", "InvalidDocumentBatch", "UnsupportedLanguageCode",
+
+    "InvalidCountryHint".'
   name: code
   types:
   - <xref:str>

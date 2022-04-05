@@ -10,7 +10,7 @@ summary: 'It is a wrap up a Question Answering KB response.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'QuestionAnsweringTargetIntentResult(*, confidence_score: float, api_version:
+  syntax: 'QuestionAnsweringTargetIntentResult(*, confidence: float, api_version:
     Optional[str] = None, result: Optional[azure.ai.language.conversations.models._models_py3.KnowledgeBaseAnswers]
     = None, **kwargs)'
 variables:
@@ -29,7 +29,7 @@ variables:
   types:
   - <xref:str>
 - description: Required. The prediction score and it ranges from 0.0 to 1.0.
-  name: confidence_score
+  name: confidence
   types:
   - <xref:float>
 - description: The generated answer by a Question Answering KB.

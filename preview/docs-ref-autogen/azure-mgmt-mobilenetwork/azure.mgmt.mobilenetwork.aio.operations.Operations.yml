@@ -44,10 +44,10 @@ methods:
     description: An iterator like instance of either OperationList or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:mobile_network_management_client.models.OperationList>]
+    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.OperationList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:
 - uid: azure.mgmt.mobilenetwork.aio.operations.Operations.models
   name: models
-  signature: models = <module 'azure.mgmt.mobilenetwork.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.9.10\\x64\\lib\\site-packages\\azure\\mgmt\\mobilenetwork\\models\\__init__.py'>
+  signature: models = <module 'azure.mgmt.mobilenetwork.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.9.12\\x64\\lib\\site-packages\\azure\\mgmt\\mobilenetwork\\models\\__init__.py'>

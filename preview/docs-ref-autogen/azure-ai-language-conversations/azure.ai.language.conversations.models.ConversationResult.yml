@@ -17,7 +17,9 @@ variables:
   name: query
   types:
   - <xref:str>
-- description: The detected language from the query.
+- description: 'The detected language from the query in BCP 47 language
+
+    representation..'
   name: detected_language
   types:
   - <xref:str>

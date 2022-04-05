@@ -1,0 +1,46 @@
+### YamlMime:PythonClass
+uid: azure.ai.language.conversations.models.NumericRangeResolution
+name: NumericRangeResolution
+fullName: azure.ai.language.conversations.models.NumericRangeResolution
+module: azure.ai.language.conversations.models
+inheritances:
+- azure.ai.language.conversations.models._models_py3.BaseResolution
+summary: 'represents the resolution of numeric intervals.
+
+
+  All required parameters must be populated in order to send to Azure.'
+constructor:
+  syntax: 'NumericRangeResolution(*, range_kind: Union[str, azure.ai.language.conversations.models._conversation_analysis_client_enums.RangeKind],
+    minimum: float, maximum: float, **kwargs)'
+variables:
+- description: 'Required. The entity resolution object kind.Constant filled by server.
+
+    Possible values include: "Boolean", "DateTime", "Number", "Ordinal", "Speed",
+    "Weight",
+
+    "Length", "Volume", "Area", "Age", "Information", "Temperature", "Currency", "NumericRange",
+
+    "TemporalSpan".'
+  name: resolution_kind
+  types:
+  - <xref:str>
+  - <xref:azure.ai.language.conversations.models.ResolutionKind>
+- description: 'Required. The kind of range that the resolution object represents.
+    Possible
+
+    values include: "Number", "Speed", "Weight", "Length", "Volume", "Area", "Age",
+    "Information",
+
+    "Temperature", "Currency".'
+  name: range_kind
+  types:
+  - <xref:str>
+  - <xref:azure.ai.language.conversations.models.RangeKind>
+- description: Required. The beginning value of  the interval.
+  name: minimum
+  types:
+  - <xref:float>
+- description: Required. The ending value of the interval.
+  name: maximum
+  types:
+  - <xref:float>

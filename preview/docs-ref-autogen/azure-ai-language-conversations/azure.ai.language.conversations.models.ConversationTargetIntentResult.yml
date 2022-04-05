@@ -10,8 +10,8 @@ summary: 'A wrap up of Conversation project response.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'ConversationTargetIntentResult(*, confidence_score: float, api_version:
-    Optional[str] = None, result: Optional[azure.ai.language.conversations.models._models_py3.ConversationResult]
+  syntax: 'ConversationTargetIntentResult(*, confidence: float, api_version: Optional[str]
+    = None, result: Optional[azure.ai.language.conversations.models._models_py3.ConversationResult]
     = None, **kwargs)'
 variables:
 - description: 'Required. This discriminator property specifies the type of the target
@@ -29,7 +29,7 @@ variables:
   types:
   - <xref:str>
 - description: Required. The prediction score and it ranges from 0.0 to 1.0.
-  name: confidence_score
+  name: confidence
   types:
   - <xref:float>
 - description: The actual response from a Conversation project.
