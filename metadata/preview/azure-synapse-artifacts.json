@@ -1,7 +1,7 @@
 {
   "Name": "azure-synapse-artifacts",
-  "Version": "0.12.1a20220330001",
-  "DevVersion": "0.12.1a20220330001",
+  "Version": "0.12.1a20220404001",
+  "DevVersion": "0.12.1a20220404001",
   "DirectoryPath": "sdk/synapse/azure-synapse-artifacts",
   "ServiceDirectory": "synapse",
   "ReadMePath": "sdk/synapse/azure-synapse-artifacts/README.md",
