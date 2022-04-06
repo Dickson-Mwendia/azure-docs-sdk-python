@@ -3,14 +3,14 @@ title: Azure Container Registry client library for Python
 keywords: Azure, python, SDK, API, azure-containerregistry, containerregistry
 author: YalinLi0312
 ms.author: yall
-ms.date: 03/31/2022
+ms.date: 04/06/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: python
 ms.service: containerregistry
 ---
-# Azure Container Registry client library for Python - Version 1.0.1a20220330002 
+# Azure Container Registry client library for Python - Version 1.0.1a20220405001 
 
 
 Azure Container Registry allows you to store and manage container images and artifacts in a private registry for all types of container deployments.
