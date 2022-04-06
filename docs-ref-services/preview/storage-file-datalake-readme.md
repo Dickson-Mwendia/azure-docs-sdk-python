@@ -3,7 +3,7 @@ title: Azure DataLake service client library for Python
 keywords: Azure, python, SDK, API, azure-storage-file-datalake, storage
 author: amishra-dev
 ms.author: amishra
-ms.date: 03/31/2022
+ms.date: 04/06/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
@@ -13,7 +13,7 @@ ms.service: storage
 ## _Disclaimer_
 _Azure SDK Python packages support for Python 2.7 has ended 01 January 2022. For more information and questions, please refer to https://github.com/Azure/azure-sdk-for-python/issues/20691_
 
-# Azure DataLake service client library for Python - Version 12.7.0a20220330001 
+# Azure DataLake service client library for Python - Version 12.7.0a20220405001 
 
 Overview
 
