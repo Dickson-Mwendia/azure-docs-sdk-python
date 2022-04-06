@@ -72,22 +72,23 @@ examples:
 - "Creating the TextAnalyticsClient with endpoint and API key.<!--[!code-python[Main](les\\\
   sample_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\":\
   \ [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\
-  \\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\sample_authentication.py\"\
-  , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-  : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
-  \ import AzureKeyCredential\n   from azure.ai.textanalytics import TextAnalyticsClient\n\
-  \   endpoint = os.environ[\"AZURE_TEXT_ANALYTICS_ENDPOINT\"]\n   key = os.environ[\"\
-  AZURE_TEXT_ANALYTICS_KEY\"]\n\n   text_analytics_client = TextAnalyticsClient(endpoint,\
-  \ AzureKeyCredential(key))\n\n   ````\n\nCreating the TextAnalyticsClient with endpoint\
-  \ and token credential from Azure Active Directory.<!--[!code-python[Main](les\\\
-  sample_authentication.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\":\
-  \ [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\
-  \\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\sample_authentication.py\"\
-  , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-  : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.ai.textanalytics\
-  \ import TextAnalyticsClient\n   from azure.identity import DefaultAzureCredential\n\
-  \n   endpoint = os.environ[\"AZURE_TEXT_ANALYTICS_ENDPOINT\"]\n   credential = DefaultAzureCredential()\n\
-  \n   text_analytics_client = TextAnalyticsClient(endpoint, credential=credential)\n\
+  \\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\\samples\\\
+  \\sample_authentication.py\", \"xml:space\": \"preserve\", \"force\": false, \"\
+  language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\": false}\
+  \ -->\n\n````python\n\n   from azure.core.credentials import AzureKeyCredential\n\
+  \   from azure.ai.textanalytics import TextAnalyticsClient\n   endpoint = os.environ[\"\
+  AZURE_TEXT_ANALYTICS_ENDPOINT\"]\n   key = os.environ[\"AZURE_TEXT_ANALYTICS_KEY\"\
+  ]\n\n   text_analytics_client = TextAnalyticsClient(endpoint, AzureKeyCredential(key))\n\
+  \n   ````\n\nCreating the TextAnalyticsClient with endpoint and token credential\
+  \ from Azure Active Directory.<!--[!code-python[Main](les\\sample_authentication.py\
+  \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
+  : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\
+  \\samples\\\\sample_authentication.py\", \"xml:space\": \"preserve\", \"force\"\
+  : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+  linenos\": false} -->\n\n````python\n\n   from azure.ai.textanalytics import TextAnalyticsClient\n\
+  \   from azure.identity import DefaultAzureCredential\n\n   endpoint = os.environ[\"\
+  AZURE_TEXT_ANALYTICS_ENDPOINT\"]\n   credential = DefaultAzureCredential()\n\n \
+  \  text_analytics_client = TextAnalyticsClient(endpoint, credential=credential)\n\
   \n   ````\n"
 methods:
 - uid: azure.ai.textanalytics.TextAnalyticsClient.analyze_sentiment
@@ -226,7 +227,7 @@ methods:
   - "Analyze sentiment in a batch of documents.<!--[!code-python[Main](les\\sample_analyze_sentiment.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
-    \\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\sample_analyze_sentiment.py\"\
+    \\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\\samples\\\\sample_analyze_sentiment.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.core.credentials import AzureKeyCredential\n   from azure.ai.textanalytics\
@@ -418,7 +419,7 @@ methods:
     \ over a batch of documents.<!--[!code-python[Main](les\\sample_analyze_actions.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
-    \\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\sample_analyze_actions.py\"\
+    \\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\\samples\\\\sample_analyze_actions.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.core.credentials import AzureKeyCredential\n   from azure.ai.textanalytics\
@@ -623,8 +624,8 @@ methods:
   - "Recognize healthcare entities in a batch of documents.<!--[!code-python[Main](les\\\
     sample_analyze_healthcare_entities.py )]-->\n\n<!-- literal_block {\"ids\": [],\
     \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0b3\\\\\
-    samples\\\\sample_analyze_healthcare_entities.py\", \"xml:space\": \"preserve\"\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\
+    \\samples\\\\sample_analyze_healthcare_entities.py\", \"xml:space\": \"preserve\"\
     , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
     : 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n   from azure.core.credentials\
     \ import AzureKeyCredential\n   from azure.ai.textanalytics import TextAnalyticsClient,\
@@ -763,7 +764,7 @@ methods:
   - "Detecting language in a batch of documents.<!--[!code-python[Main](les\\sample_detect_language.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
-    \\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\sample_detect_language.py\"\
+    \\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\\samples\\\\sample_detect_language.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.core.credentials import AzureKeyCredential\n   from azure.ai.textanalytics\
@@ -897,10 +898,10 @@ methods:
   - "Extract the key phrases in a batch of documents.<!--[!code-python[Main](les\\\
     sample_extract_key_phrases.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
-    a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\\
-    sample_extract_key_phrases.py\", \"xml:space\": \"preserve\", \"force\": false,\
-    \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
-    : false} -->\n\n````python\n\n   from azure.core.credentials import AzureKeyCredential\n\
+    a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\\\
+    samples\\\\sample_extract_key_phrases.py\", \"xml:space\": \"preserve\", \"force\"\
+    : false, \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"\
+    linenos\": false} -->\n\n````python\n\n   from azure.core.credentials import AzureKeyCredential\n\
     \   from azure.ai.textanalytics import TextAnalyticsClient\n\n   endpoint = os.environ[\"\
     AZURE_TEXT_ANALYTICS_ENDPOINT\"]\n   key = os.environ[\"AZURE_TEXT_ANALYTICS_KEY\"\
     ]\n\n   text_analytics_client = TextAnalyticsClient(endpoint=endpoint, credential=AzureKeyCredential(key))\n\
@@ -1035,7 +1036,7 @@ methods:
   - "Recognize entities in a batch of documents.<!--[!code-python[Main](les\\sample_recognize_entities.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
-    \\50\\\\azure-ai-textanalytics-5.2.0b3\\\\samples\\\\sample_recognize_entities.py\"\
+    \\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\\samples\\\\sample_recognize_entities.py\"\
     , \"xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"\
     highlight_args\": {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\
     \n   from azure.core.credentials import AzureKeyCredential\n   from azure.ai.textanalytics\
@@ -1177,8 +1178,8 @@ methods:
   - "Recognize linked entities in a batch of documents.<!--[!code-python[Main](les\\\
     sample_recognize_linked_entities.py )]-->\n\n<!-- literal_block {\"ids\": [],\
     \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0b3\\\\\
-    samples\\\\sample_recognize_linked_entities.py\", \"xml:space\": \"preserve\"\
+    : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\
+    \\samples\\\\sample_recognize_linked_entities.py\", \"xml:space\": \"preserve\"\
     , \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
     : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
     \ import AzureKeyCredential\n   from azure.ai.textanalytics import TextAnalyticsClient\n\
@@ -1335,9 +1336,9 @@ methods:
   - "Recognize personally identifiable information entities in a batch of documents.<!--[!code-python[Main](les\\\
     sample_recognize_pii_entities.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
-    \ \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0b3\\\\\
-    samples\\\\sample_recognize_pii_entities.py\", \"xml:space\": \"preserve\", \"\
-    force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
+    \ \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\50\\\\azure-ai-textanalytics-5.2.0a20220405001\\\
+    \\samples\\\\sample_recognize_pii_entities.py\", \"xml:space\": \"preserve\",\
+    \ \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
     : 1}, \"linenos\": false} -->\n\n````python\n\n   from azure.core.credentials\
     \ import AzureKeyCredential\n   from azure.ai.textanalytics import TextAnalyticsClient\n\
     \n   endpoint = os.environ[\"AZURE_TEXT_ANALYTICS_ENDPOINT\"]\n   key = os.environ[\"\
