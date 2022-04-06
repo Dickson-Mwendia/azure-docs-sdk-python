@@ -3,14 +3,14 @@ title: Azure App Configuration client library for Python
 keywords: Azure, python, SDK, API, azure-appconfiguration, appconfiguration
 author: xiangyan99
 ms.author: xiangyan
-ms.date: 03/31/2022
+ms.date: 04/06/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: python
 ms.service: appconfiguration
 ---
-# Azure App Configuration client library for Python - Version 1.4.0a20220330002 
+# Azure App Configuration client library for Python - Version 1.4.0a20220405001 
 
 
 Azure App Configuration is a managed service that helps developers centralize their application configurations simply and securely.
