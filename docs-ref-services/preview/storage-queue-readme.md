@@ -3,7 +3,7 @@ title: Azure Storage Queues client library for Python
 keywords: Azure, python, SDK, API, azure-storage-queue, storage
 author: amishra-dev
 ms.author: amishra
-ms.date: 03/31/2022
+ms.date: 04/08/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
@@ -13,7 +13,7 @@ ms.service: storage
 ## _Disclaimer_
 _Azure SDK Python packages support for Python 2.7 has ended 01 January 2022. For more information and questions, please refer to https://github.com/Azure/azure-sdk-for-python/issues/20691_
 
-# Azure Storage Queues client library for Python - Version 12.3.0a20220330001 
+# Azure Storage Queues client library for Python - Version 12.3.0a20220407003 
 
 
 Azure Queue storage is a service for storing large numbers of messages that can be accessed from anywhere in the world via authenticated calls using HTTP or HTTPS. A single queue message can be up to 64 KiB in size, and a queue can contain millions of messages, up to the total capacity limit of a storage account.

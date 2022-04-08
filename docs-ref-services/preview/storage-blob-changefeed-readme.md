@@ -3,7 +3,7 @@ title: Azure Storage Blob ChangeFeed client library for Python
 keywords: Azure, python, SDK, API, azure-storage-blob-changefeed, storage
 author: amishra-dev
 ms.author: amishra
-ms.date: 03/31/2022
+ms.date: 04/08/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
@@ -13,7 +13,7 @@ ms.service: storage
 ## _Disclaimer_
 _Azure SDK Python packages support for Python 2.7 has ended 01 January 2022. For more information and questions, please refer to https://github.com/Azure/azure-sdk-for-python/issues/20691_
 
-# Azure Storage Blob ChangeFeed client library for Python - Version 12.0.0a20220330001 
+# Azure Storage Blob ChangeFeed client library for Python - Version 12.0.0a20220407003 
 
 
 This preview package for Python enables users to get blob change feed events. These events can be lazily generated, iterated by page, retrieved for a specific time interval, or iterated from a specific continuation token.
