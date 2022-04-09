@@ -3,7 +3,7 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-batch, batch
 author: cRui861
 ms.author: rechen
-ms.date: 03/31/2022
+ms.date: 04/09/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
