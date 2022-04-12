@@ -3,7 +3,7 @@ title: Azure Storage Blobs client library for Python
 keywords: Azure, python, SDK, API, azure-storage-blob, storage
 author: amishra-dev
 ms.author: amishra
-ms.date: 03/31/2022
+ms.date: 04/12/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
@@ -13,7 +13,7 @@ ms.service: storage
 ## _Disclaimer_
 _Azure SDK Python packages support for Python 2.7 has ended 01 January 2022. For more information and questions, please refer to https://github.com/Azure/azure-sdk-for-python/issues/20691_
 
-# Azure Storage Blobs client library for Python - Version 12.12.0a20220330001 
+# Azure Storage Blobs client library for Python - Version 12.12.0a20220411001 
 
 Azure Blob storage is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, such as text or binary data.
 
