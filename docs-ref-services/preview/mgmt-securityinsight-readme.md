@@ -3,7 +3,7 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-securityinsight, securityinsight
 author: lmazuel
 ms.author: lmazuel
-ms.date: 03/30/2022
+ms.date: 04/13/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
