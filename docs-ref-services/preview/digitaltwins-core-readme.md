@@ -3,14 +3,14 @@ title: Azure Azure Digital Twins Core client library for Python
 keywords: Azure, python, SDK, API, azure-digitaltwins-core, digitaltwins
 author: johngallardo
 ms.author: jgalla
-ms.date: 03/31/2022
+ms.date: 04/13/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: python
 ms.service: digitaltwins
 ---
-# Azure Azure Digital Twins Core client library for Python - Version 1.2.0b1 
+# Azure Azure Digital Twins Core client library for Python - Version 1.2.0a20220413001 
 
 
 This package contains an SDK for Azure Digital Twins API to provide access to the Azure Digital Twins service for managing twins, models, relationships, etc.
@@ -184,7 +184,7 @@ service_client.delete_model(model_id)
 ## Create and delete digital twins
 
 ### Create digital twins
-For Creating Twin you will need to provide Id of a digital Twin such as `my_twin` and the application/json digital twin based on the model created earlier. You can look at sample application/json [here](https://github.com/Azure/azure-sdk-for-python/tree/azure-digitaltwins-core_1.2.0b1/sdk/digitaltwins/azure-digitaltwins-core/samples/dtdl/digital_twins).
+For Creating Twin you will need to provide Id of a digital Twin such as `my_twin` and the application/json digital twin based on the model created earlier. You can look at sample application/json [here](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/digitaltwins/azure-digitaltwins-core/samples/dtdl/digital_twins).
 
 ```Python Snippet:dt_digitaltwins_lifecycle
 digital_twin_id = 'digitalTwin-' + str(uuid.uuid4())
@@ -265,7 +265,7 @@ print(get_component)
 
 ### Create digital twin relationships
 
-`upsert_relationship` creates a relationship on a digital twin provided with Id of a digital twin, name of relationship such as "contains", Id of an relationship such as "FloorContainsRoom" and an application/json relationship to be created. Must contain property with key "\$targetId" to specify the target of the relationship. Sample payloads for relationships can be found [here](https://github.com/Azure/azure-sdk-for-python/blob/azure-digitaltwins-core_1.2.0b1/sdk/digitaltwins/azure-digitaltwins-core/samples/dtdl/relationships/hospitalRelationships.json).
+`upsert_relationship` creates a relationship on a digital twin provided with Id of a digital twin, name of relationship such as "contains", Id of an relationship such as "FloorContainsRoom" and an application/json relationship to be created. Must contain property with key "\$targetId" to specify the target of the relationship. Sample payloads for relationships can be found [here](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/digitaltwins/azure-digitaltwins-core/samples/dtdl/relationships/hospitalRelationships.json).
 
 ```Python Snippet:dt_scenario
 hospital_relationships = [
@@ -422,7 +422,7 @@ model = service_client.get_model(model_id, logging_enable=True)
 ### Optional Configuration
 Optional keyword arguments can be passed in at the client and per-operation level. The azure-core [reference documentation](https://azuresdkdocs.blob.core.windows.net/$web/python/azure-core/latest/azure.core.html) describes available configurations for retries, logging, transport protocols, and more.
 
-[azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/azure-digitaltwins-core_1.2.0b1/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity
 [azure_identity_pypi]: https://pypi.org/project/azure-identity/
 [default_cred_ref]: https://aka.ms/azsdk/python/identity/docs#azure.identity.DefaultAzureCredential
 [pip]: https://pypi.org/project/pip/
