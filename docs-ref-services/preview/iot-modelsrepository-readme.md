@@ -3,14 +3,14 @@ title: Azure IoT Models Repository client library for Python
 keywords: Azure, python, SDK, API, azure-iot-modelsrepository, modelsrepository
 author: cartertinney
 ms.author: catinney
-ms.date: 03/31/2022
+ms.date: 04/13/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: python
 ms.service: modelsrepository
 ---
-# Azure IoT Models Repository client library for Python - Version 1.0.0a20220330001 
+# Azure IoT Models Repository client library for Python - Version 1.0.0a20220412001 
 
 
 The Azure IoT Models Repository Library for Python provides functionality for working with the Azure IoT Models Repository
