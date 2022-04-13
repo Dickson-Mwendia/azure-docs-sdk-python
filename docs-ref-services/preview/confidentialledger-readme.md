@@ -3,14 +3,14 @@ title: Azure Confidential Ledger client library for Python
 keywords: Azure, python, SDK, API, azure-confidentialledger, confidentialledger
 author: lmazuel
 ms.author: lmazuel
-ms.date: 03/31/2022
+ms.date: 04/13/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: python
 ms.service: confidentialledger
 ---
-# Azure Confidential Ledger client library for Python - Version 1.0.0a20220330001 
+# Azure Confidential Ledger client library for Python - Version 1.0.0a20220412001 
 
 
 Azure Confidential Ledger provides a service for logging to an immutable, tamper-proof ledger. As part of the [Azure Confidential Computing][azure_confidential_computing] portfolio, Azure Confidential Ledger runs in secure, hardware-based trusted execution environments, also known as enclaves. It is built on Microsoft Research's [Confidential Consortium Framework][ccf].
